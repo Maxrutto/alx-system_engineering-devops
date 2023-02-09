@@ -1,3 +1,3 @@
 #!/bin/bash
-This repo is for shell basics
+This repo is for shell permissions
 
