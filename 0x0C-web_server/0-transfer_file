@@ -11,6 +11,6 @@ server_ip="$2"
 username="$3"
 path_to_ssh_key="$4"
 
-ssh -o StrictHostKeyChecking=no
+scp -o StrictHostKeyChecking=no
 
 scp -i "$path_to_ssh_key" "$path_to_file" "$username"@"$server_ip":~/
